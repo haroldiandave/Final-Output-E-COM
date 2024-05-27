@@ -1,0 +1,78 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+}
+
+.table th {
+    background-color: #4CAF50; 
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; 
+}
+
+.table tbody tr:hover {
+    background-color: #ddd; 
+}
+
+.button {
+    background-color: #008CBA; 
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 2px solid #008CBA; 
+}
+
+.button:hover {
+    background-color: white;
+    color: #008CBA; 
+}
+
+.back-to-home-button {
+    background-color: #4CAF50;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0; 
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50; 
+}
+
+.back-to-home-button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+

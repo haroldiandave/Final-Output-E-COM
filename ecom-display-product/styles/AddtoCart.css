@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #F4BC1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1500px;
+    padding: 2rem;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-nike {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 10px;
+    background: #333;
+    border-radius: 1vw;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 100px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover {
+    color: #F4BC1C;
+}
+
+.cart-display {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.cart-display h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    color: #333;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.6rem; 
+}
+
+.cart-table th {
+    background: #f8f8f8;
+    font-weight: 600;
+    font-size: 1.8rem; 
+}
+
+.cart-table tr:hover {
+    background: #f1f1f1;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    background: #333;
+    text-align: center;
+    color: #fff;
+}
+
+
